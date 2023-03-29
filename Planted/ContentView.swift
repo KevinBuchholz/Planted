@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world! -- Jacob Was here")
+        NavigationStack{
+            VStack{
+                Image("PLNTD LOGO")
+                    .resizable()
+                    .padding()
+                NavigationLink(destination: SuggestedView()){
+                    Text("Suggested View")
+                }
+                .padding()
+                NavigationLink(destination: UserPlantsView()){
+                    Text("My Plants")
+                }
+                .padding()
+            }
         }
-        .padding()
     }
 }
 
