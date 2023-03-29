@@ -32,7 +32,8 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .background(CustomColor.LightGreen)
                 .padding()
-            }
+            }                .navigationBarBackButtonHidden(true)
+
         }
     }
 

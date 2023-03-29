@@ -9,7 +9,30 @@ import SwiftUI
 
 struct SuggestedView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            HostedViewController()
+
+                .navigationBarBackButtonHidden(true)
+                .ignoresSafeArea()
+
+            
+            VStack{
+                Spacer()
+                NavigationLink(destination: ContentView()) {
+                    Text("Go back")
+                        .foregroundColor(.white)
+                        .bold()
+                        .frame(width: 90,height: 40)
+                        .background(.green)
+                        .cornerRadius(10)
+                }
+                .padding()
+                .offset(x:-140)
+                .navigationBarBackButtonHidden(true)
+
+            }
+        }
+
     }
 }
 
