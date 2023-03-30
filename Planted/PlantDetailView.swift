@@ -24,7 +24,6 @@ struct PlantDetailView: View {
                 Text("\(plant.latinName)")
                     .padding()
             }
-
         }
     }
 }
