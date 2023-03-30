@@ -63,7 +63,7 @@ class PlantModel : ObservableObject {
     
     func reload() async throws {
         let headers = [
-            "X-RapidAPI-Key": "133b9a3733msh8ae7e74f8a817e6p1cf215jsn816edac15404",
+            "X-RapidAPI-Key": Secret.apiKey,
             "X-RapidAPI-Host": "house-plants2.p.rapidapi.com"
         ]
         
