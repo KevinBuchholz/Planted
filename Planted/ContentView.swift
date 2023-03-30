@@ -28,9 +28,11 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .padding(5)
                 }
+
                 .foregroundColor(.green)
             }
                         .offset(x:0, y: -150)
+
         }
     }
 
