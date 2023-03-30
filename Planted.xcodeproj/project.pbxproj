@@ -17,6 +17,8 @@
 		D60FB01629D4B15C002552F6 /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01529D4B15C002552F6 /* SuggestedView.swift */; };
 		D60FB01829D4B17B002552F6 /* UserPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01729D4B17B002552F6 /* UserPlantsView.swift */; };
 		D60FB01A29D4B198002552F6 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01929D4B198002552F6 /* PlantDetailView.swift */; };
+		D60FB01E29D4C94D002552F6 /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01D29D4C94D002552F6 /* PlantModel.swift */; };
+		D60FB02029D4C96E002552F6 /* PlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01F29D4C96E002552F6 /* PlantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		D60FB01529D4B15C002552F6 /* SuggestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedView.swift; sourceTree = "<group>"; };
 		D60FB01729D4B17B002552F6 /* UserPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlantsView.swift; sourceTree = "<group>"; };
 		D60FB01929D4B198002552F6 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		D60FB01D29D4C94D002552F6 /* PlantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		D60FB01F29D4C96E002552F6 /* PlantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D60FB01729D4B17B002552F6 /* UserPlantsView.swift */,
 				D60FB01529D4B15C002552F6 /* SuggestedView.swift */,
 				D60FAFB329D2194E002552F6 /* Assets.xcassets */,
+				D60FB01F29D4C96E002552F6 /* PlantView.swift */,
+				D60FB01D29D4C94D002552F6 /* PlantModel.swift */,
 				D60FAFB529D2194E002552F6 /* Preview Content */,
 			);
 			path = Planted;
@@ -267,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60FAFB229D2194D002552F6 /* ContentView.swift in Sources */,
+				D60FB01E29D4C94D002552F6 /* PlantModel.swift in Sources */,
+				D60FB02029D4C96E002552F6 /* PlantView.swift in Sources */,
 				D60FB01629D4B15C002552F6 /* SuggestedView.swift in Sources */,
 				D60FAFB029D2194D002552F6 /* PlantedApp.swift in Sources */,
 				D60FB01829D4B17B002552F6 /* UserPlantsView.swift in Sources */,

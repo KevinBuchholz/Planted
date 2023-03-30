@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct PlantDetailView: View {
+    let plant: Plant
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            VStack{
+                AsyncImage(url: URL(string: plant.secureImageUrl)!) { image in
+                          image
+                              .resizable()
+                              .aspectRatio(contentMode: .fill)
+                      } placeholder: {
+                          Image(systemName: "photo.fill")
+                      }.frame(width: 250, height: 250)
+                    .padding()
+                Text("Plant Name: \(plant.firstCommonName)")
+                Text("\(plant.latinName)")
+                    .padding()
+            }
+        }
     }
 }
 
 struct PlantDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PlantDetailView()
+        PlantDetailView(plant: Plant())
     }
 }
