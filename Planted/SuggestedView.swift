@@ -10,8 +10,7 @@ import SwiftUI
 struct SuggestedView: View {
     var body: some View {
         ZStack{
-            HostedViewController()
-
+                LuxView()
                 .navigationBarBackButtonHidden(true)
                 .ignoresSafeArea()
 
