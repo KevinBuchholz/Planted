@@ -15,25 +15,24 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .padding(40)
-                .offset(x:0, y: -150)
                
                 NavigationLink(destination: SuggestedView()) {  Text("Suggest A Plant")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
                 }
-                .buttonStyle(.bordered)
-                .buttonBorderShape(.roundedRectangle(radius: 5))
-                .foregroundColor(.white)
-                .background(CustomColor.LightGreen)
+                .foregroundColor(.green)
          }
                 NavigationLink(destination: UserPlantsView()){
                     Text("My Plants")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(5)
                 }
-                .buttonStyle(.bordered)
-                .buttonBorderShape(.roundedRectangle(radius: 5))
-                .foregroundColor(.white)
-                .background(CustomColor.LightGreen)
-                .padding()
-            }                .navigationBarBackButtonHidden(true)
+                .navigationBarBackButtonHidden(true)
 
+                .foregroundColor(.green)
+            }
+                        .offset(x:0, y: -150)
         }
     }
 
