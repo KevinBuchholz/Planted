@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		09BC2A5229D4D45200D45FF3 /* ArViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */; };
+		09CDC84E29D60F0000CB209C /* LuxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC84D29D60F0000CB209C /* LuxView.swift */; };
+		09CDC85029D60F6200CB209C /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC84F29D60F6200CB209C /* VideoPreview.swift */; };
+		09CDC85229D60F8E00CB209C /* LuxReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC85129D60F8E00CB209C /* LuxReference.swift */; };
+		09CDC85429D60F9F00CB209C /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC85329D60F9F00CB209C /* VideoStream.swift */; };
 		D60FAFB029D2194D002552F6 /* PlantedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFAF29D2194D002552F6 /* PlantedApp.swift */; };
 		D60FAFB229D2194D002552F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFB129D2194D002552F6 /* ContentView.swift */; };
 		D60FAFB429D2194E002552F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60FAFB329D2194E002552F6 /* Assets.xcassets */; };
@@ -40,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewModel.swift; sourceTree = "<group>"; };
+		09CDC84D29D60F0000CB209C /* LuxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxView.swift; sourceTree = "<group>"; };
+		09CDC84F29D60F6200CB209C /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
+		09CDC85129D60F8E00CB209C /* LuxReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxReference.swift; sourceTree = "<group>"; };
+		09CDC85329D60F9F00CB209C /* VideoStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStream.swift; sourceTree = "<group>"; };
 		D60FAFAC29D2194D002552F6 /* Planted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60FAFAF29D2194D002552F6 /* PlantedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantedApp.swift; sourceTree = "<group>"; };
 		D60FAFB129D2194D002552F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09CDC84C29D60EC600CB209C /* LuxModel  */ = {
+			isa = PBXGroup;
+			children = (
+				09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */,
+				09CDC84D29D60F0000CB209C /* LuxView.swift */,
+				09CDC84F29D60F6200CB209C /* VideoPreview.swift */,
+				09CDC85129D60F8E00CB209C /* LuxReference.swift */,
+				09CDC85329D60F9F00CB209C /* VideoStream.swift */,
+			);
+			path = "LuxModel ";
+			sourceTree = "<group>";
+		};
 		D60FAFA329D2194D002552F6 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +129,7 @@
 				D60FB01929D4B198002552F6 /* PlantDetailView.swift */,
 				D60FB01729D4B17B002552F6 /* UserPlantsView.swift */,
 				D60FB01529D4B15C002552F6 /* SuggestedView.swift */,
-				09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */,
+				09CDC84C29D60EC600CB209C /* LuxModel  */,
 				D60FAFB329D2194E002552F6 /* Assets.xcassets */,
 				D60FB01B29D4BFAB002552F6 /* CustomColors.swift */,
 				D60FAFB529D2194E002552F6 /* Preview Content */,
@@ -272,13 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CDC85029D60F6200CB209C /* VideoPreview.swift in Sources */,
 				D60FAFB229D2194D002552F6 /* ContentView.swift in Sources */,
 				D60FB01629D4B15C002552F6 /* SuggestedView.swift in Sources */,
 				D60FAFB029D2194D002552F6 /* PlantedApp.swift in Sources */,
 				D60FB01829D4B17B002552F6 /* UserPlantsView.swift in Sources */,
+				09CDC85429D60F9F00CB209C /* VideoStream.swift in Sources */,
+				09CDC84E29D60F0000CB209C /* LuxView.swift in Sources */,
 				D60FB01C29D4BFAB002552F6 /* CustomColors.swift in Sources */,
 				D60FB01A29D4B198002552F6 /* PlantDetailView.swift in Sources */,
 				09BC2A5229D4D45200D45FF3 /* ArViewModel.swift in Sources */,
+				09CDC85229D60F8E00CB209C /* LuxReference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

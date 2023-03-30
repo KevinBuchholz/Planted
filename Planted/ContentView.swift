@@ -28,11 +28,11 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .padding(5)
                 }
+                .navigationBarBackButtonHidden(true)
 
                 .foregroundColor(.green)
             }
                         .offset(x:0, y: -150)
-
         }
     }
 
