@@ -16,6 +16,23 @@ struct LuxReference: Identifiable {
     let id = UUID()
 }
 
+// if recorded is  > 21500 retrun full sun
+//if recorded is <= 21,500 ||recorded is >= 3,200 return strongllight
+
+enum LightSabers{
+    case fullSun
+    //recorded > 21,500
+
+    case strongLight
+    // 21,500... 3,200
+//    case diffuseLight 
+    // less than 5300
+}
+
+
+
+
+
 let references = [
     LuxReference(reference: "Overcast night sky without moon", value: "0.0001"),
     LuxReference(reference: "Full moon on a clear night", value: "0.3"),

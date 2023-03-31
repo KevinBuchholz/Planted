@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct Plant : Identifiable, Decodable {
     // let Common name (fr.) = commonName
     
@@ -15,7 +16,11 @@ struct Plant : Identifiable, Decodable {
         case commonNames = "Common name"
         case latinName = "Latin name"
         case imageUrl = "Img"
+        case lightIdeal = "Light ideal"
+        case lightTolerated = "Light tolerated"
+        case watering = "Watering"
     }
+    
     let id: String
     var commonNames: [String]? = nil
     var firstCommonName: String {
@@ -30,27 +35,43 @@ struct Plant : Identifiable, Decodable {
     var secureImageUrl = String()
     //    var tempMax : String
     //    var tempMin : String
-    //    var lightIdeal : Int
-    //    var lightTolerated : Int
-    //    var watering : String
+        var lightIdeal : LightSabers? = nil
+        var lightTolerated : String
+        var watering : String
     //    var use: String
     
+    
+    
+    
+    /// getting Api data
     init(from decoder: Decoder) throws {
         let plant = try! decoder.container(keyedBy: CodingKeys.self)
         id = try! plant.decode(String.self, forKey: .id)
         commonNames = try! plant.decode([String]?.self, forKey: .commonNames)
         latinName = try! plant.decode(String.self, forKey: .latinName)
         imageUrl = try! plant.decode(String.self, forKey: .imageUrl)
+        lightTolerated = try! plant.decode(String.self, forKey: .lightIdeal)
+        watering = try! plant.decode(String.self, forKey: .watering)
         let index = imageUrl.firstIndex(of: ":")!
         var url = imageUrl
         url.insert("s", at: index)
         secureImageUrl = url
+        let lightIdealString = try! plant.decode(String.self, forKey: .lightIdeal)
+        if lightIdealString.lowercased().localizedStandardContains("strong") {
+            lightIdeal = .strongLight
+        } else if lightIdealString.lowercased().localizedStandardContains("full") {
+            lightIdeal = .fullSun
+        } else {
+            fatalError("didnt ccontain strong or full light")
+        }
     }
     
     init() {
         self.id = "0"
         self.latinName = ""
         self.imageUrl = ""
+        self.lightTolerated = ""
+        self.watering = ""
     }
     
 }
@@ -89,5 +110,9 @@ class PlantModel : ObservableObject {
         
         dataTask.resume()
     }
+    
+    
+    
 }
+
 

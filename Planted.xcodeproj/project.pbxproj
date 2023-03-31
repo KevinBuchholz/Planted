@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AF5ED029D6236F00068C13 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF5ECF29D6236F00068C13 /* Secrets.swift */; };
+		09AF5ED229D678FC00068C13 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF5ED129D678FC00068C13 /* MainTabView.swift */; };
+		09AF5ED429D67BDB00068C13 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AF5ED329D67BDB00068C13 /* CalenderView.swift */; };
 		09BC2A5229D4D45200D45FF3 /* ArViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */; };
 		09CDC84E29D60F0000CB209C /* LuxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC84D29D60F0000CB209C /* LuxView.swift */; };
 		09CDC85029D60F6200CB209C /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC84F29D60F6200CB209C /* VideoPreview.swift */; };
 		09CDC85229D60F8E00CB209C /* LuxReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC85129D60F8E00CB209C /* LuxReference.swift */; };
 		09CDC85429D60F9F00CB209C /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDC85329D60F9F00CB209C /* VideoStream.swift */; };
+		09DA51CA29D6946E00F2FA2D /* MyPlantsMVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA51C929D6946E00F2FA2D /* MyPlantsMVM.swift */; };
+		09DA51CC29D69E7B00F2FA2D /* DetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA51CB29D69E7B00F2FA2D /* DetailCard.swift */; };
 		D60FAFB029D2194D002552F6 /* PlantedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFAF29D2194D002552F6 /* PlantedApp.swift */; };
 		D60FAFB229D2194D002552F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFB129D2194D002552F6 /* ContentView.swift */; };
 		D60FAFB429D2194E002552F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60FAFB329D2194E002552F6 /* Assets.xcassets */; };
@@ -20,7 +25,7 @@
 		D60FAFCB29D2194E002552F6 /* PlantedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFCA29D2194E002552F6 /* PlantedUITests.swift */; };
 		D60FAFCD29D2194E002552F6 /* PlantedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FAFCC29D2194E002552F6 /* PlantedUITestsLaunchTests.swift */; };
 		D60FB01629D4B15C002552F6 /* SuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01529D4B15C002552F6 /* SuggestedView.swift */; };
-		D60FB01829D4B17B002552F6 /* UserPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01729D4B17B002552F6 /* UserPlantsView.swift */; };
+		D60FB01829D4B17B002552F6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01729D4B17B002552F6 /* CardView.swift */; };
 		D60FB01A29D4B198002552F6 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01929D4B198002552F6 /* PlantDetailView.swift */; };
 		D60FB01C29D4BFAB002552F6 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01B29D4BFAB002552F6 /* CustomColors.swift */; };
 		D60FB01E29D4C94D002552F6 /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FB01D29D4C94D002552F6 /* PlantModel.swift */; };
@@ -45,11 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09AF5ECF29D6236F00068C13 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		09AF5ED129D678FC00068C13 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		09AF5ED329D67BDB00068C13 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewModel.swift; sourceTree = "<group>"; };
 		09CDC84D29D60F0000CB209C /* LuxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxView.swift; sourceTree = "<group>"; };
 		09CDC84F29D60F6200CB209C /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
 		09CDC85129D60F8E00CB209C /* LuxReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxReference.swift; sourceTree = "<group>"; };
 		09CDC85329D60F9F00CB209C /* VideoStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStream.swift; sourceTree = "<group>"; };
+		09DA51C929D6946E00F2FA2D /* MyPlantsMVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsMVM.swift; sourceTree = "<group>"; };
+		09DA51CB29D69E7B00F2FA2D /* DetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCard.swift; sourceTree = "<group>"; };
 		D60FAFAC29D2194D002552F6 /* Planted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60FAFAF29D2194D002552F6 /* PlantedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantedApp.swift; sourceTree = "<group>"; };
 		D60FAFB129D2194D002552F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,7 +71,7 @@
 		D60FAFCA29D2194E002552F6 /* PlantedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantedUITests.swift; sourceTree = "<group>"; };
 		D60FAFCC29D2194E002552F6 /* PlantedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D60FB01529D4B15C002552F6 /* SuggestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedView.swift; sourceTree = "<group>"; };
-		D60FB01729D4B17B002552F6 /* UserPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlantsView.swift; sourceTree = "<group>"; };
+		D60FB01729D4B17B002552F6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D60FB01929D4B198002552F6 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
 		D60FB01B29D4BFAB002552F6 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		D60FB01D29D4C94D002552F6 /* PlantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
@@ -93,7 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09CDC84C29D60EC600CB209C /* LuxModel  */ = {
+		09AF5ED529D67EAA00068C13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D60FB01D29D4C94D002552F6 /* PlantModel.swift */,
+				D60FB01F29D4C96E002552F6 /* PlantView.swift */,
+				D60FAFB129D2194D002552F6 /* ContentView.swift */,
+				D60FB01529D4B15C002552F6 /* SuggestedView.swift */,
+				D60FB01929D4B198002552F6 /* PlantDetailView.swift */,
+				09AF5ED129D678FC00068C13 /* MainTabView.swift */,
+				09AF5ED329D67BDB00068C13 /* CalenderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09AF5ED629D67FAC00068C13 /* My Plants Creator  */ = {
+			isa = PBXGroup;
+			children = (
+				D60FB01729D4B17B002552F6 /* CardView.swift */,
+				09DA51CB29D69E7B00F2FA2D /* DetailCard.swift */,
+				09DA51C929D6946E00F2FA2D /* MyPlantsMVM.swift */,
+			);
+			path = "My Plants Creator ";
+			sourceTree = "<group>";
+		};
+		09CDC84C29D60EC600CB209C /* LuxCreator */ = {
 			isa = PBXGroup;
 			children = (
 				09BC2A5129D4D45200D45FF3 /* ArViewModel.swift */,
@@ -102,7 +136,7 @@
 				09CDC85129D60F8E00CB209C /* LuxReference.swift */,
 				09CDC85329D60F9F00CB209C /* VideoStream.swift */,
 			);
-			path = "LuxModel ";
+			path = LuxCreator;
 			sourceTree = "<group>";
 		};
 		D60FAFA329D2194D002552F6 = {
@@ -129,15 +163,12 @@
 			isa = PBXGroup;
 			children = (
 				D60FAFAF29D2194D002552F6 /* PlantedApp.swift */,
-				D60FAFB129D2194D002552F6 /* ContentView.swift */,
-				D60FB01929D4B198002552F6 /* PlantDetailView.swift */,
-				D60FB01729D4B17B002552F6 /* UserPlantsView.swift */,
-				D60FB01529D4B15C002552F6 /* SuggestedView.swift */,
-				09CDC84C29D60EC600CB209C /* LuxModel  */,
+				09AF5ED629D67FAC00068C13 /* My Plants Creator  */,
+				09AF5ED529D67EAA00068C13 /* Views */,
+				09CDC84C29D60EC600CB209C /* LuxCreator */,
 				D60FAFB329D2194E002552F6 /* Assets.xcassets */,
 				D60FB01B29D4BFAB002552F6 /* CustomColors.swift */,
-				D60FB01F29D4C96E002552F6 /* PlantView.swift */,
-				D60FB01D29D4C94D002552F6 /* PlantModel.swift */,
+				09AF5ECF29D6236F00068C13 /* Secrets.swift */,
 				D60FAFB529D2194E002552F6 /* Preview Content */,
 			);
 			path = Planted;
@@ -304,13 +335,18 @@
 				D60FB02029D4C96E002552F6 /* PlantView.swift in Sources */,
 				D60FB01629D4B15C002552F6 /* SuggestedView.swift in Sources */,
 				D60FAFB029D2194D002552F6 /* PlantedApp.swift in Sources */,
-				D60FB01829D4B17B002552F6 /* UserPlantsView.swift in Sources */,
+				09AF5ED429D67BDB00068C13 /* CalenderView.swift in Sources */,
+				D60FB01829D4B17B002552F6 /* CardView.swift in Sources */,
 				09CDC85429D60F9F00CB209C /* VideoStream.swift in Sources */,
 				09CDC84E29D60F0000CB209C /* LuxView.swift in Sources */,
+				09AF5ED029D6236F00068C13 /* Secrets.swift in Sources */,
 				D60FB01C29D4BFAB002552F6 /* CustomColors.swift in Sources */,
 				D60FB01A29D4B198002552F6 /* PlantDetailView.swift in Sources */,
 				09BC2A5229D4D45200D45FF3 /* ArViewModel.swift in Sources */,
+				09DA51CC29D69E7B00F2FA2D /* DetailCard.swift in Sources */,
 				09CDC85229D60F8E00CB209C /* LuxReference.swift in Sources */,
+				09DA51CA29D6946E00F2FA2D /* MyPlantsMVM.swift in Sources */,
+				09AF5ED229D678FC00068C13 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

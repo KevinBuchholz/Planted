@@ -13,7 +13,7 @@ struct PlantView: View {
 
     
     var body: some View {
-
+   
         NavigationStack{
             List(plantModel.plants) { plant in
                 if plant.firstCommonName != "" {
@@ -39,13 +39,13 @@ struct PlantView: View {
                 }
             }
         
-            .navigationTitle("Plants")
+            .navigationTitle("Suggested Plants")
         }
         .padding()
-        
+         
     }
 }
-
+   
 struct PlantView_Previews: PreviewProvider {
     static var previews: some View {
         PlantView()
